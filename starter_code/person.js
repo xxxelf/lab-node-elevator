@@ -1,5 +1,8 @@
 class Person {
-  constructor(name, originFloor, destinationFloor){
+  constructor(name, originalFloor, destinationFloor) {
+    this.name = name;
+    this.originalFloor = originalFloor;
+    this.destinationFloor = destinationFloor;
   }
 }
 
